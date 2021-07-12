@@ -1,5 +1,5 @@
 <template>
-    <div class="options-stripe">
+    <div class="options-stripe ">
         <nav>
             <ul>
                 <li>

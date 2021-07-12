@@ -3,6 +3,7 @@
     <Header />
     <Main />
     <Stripes />
+    <Footer />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 import Stripes from './components/Stripes.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     Header,
     Main,
     Stripes,
+    Footer
   }
 }
 </script>
@@ -26,6 +29,10 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 </style>

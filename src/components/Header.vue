@@ -1,5 +1,5 @@
 <template>
-    <div class="header-full">
+    <div class="header-full container">
         <div class="logo-container">
             <img src="../assets/dc-logo.png" />
         </div>
