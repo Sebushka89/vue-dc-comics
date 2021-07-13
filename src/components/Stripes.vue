@@ -1,6 +1,6 @@
 <template>
-    <div class="options-stripe ">
-        <nav>
+    <div class="options-stripe">
+        <nav class="container">
             <ul>
                 <li>
                     <div class="img-container"><img src="../assets/buy-comics-digital-comics.png" alt=""></div>
@@ -47,7 +47,8 @@ export default {
                 align-items: center;
                 li {
                     height: 120px;
-                    margin: 0 30px;
+                    width: 200px;
+                    margin-left: 30px;
                     cursor: pointer;
                     color: white;
                     display: flex;
@@ -57,13 +58,14 @@ export default {
                     
                         img{
                             height: 50%;
-                            margin-right: 20px;
+                            padding-right: 12px;
                             margin-top: 24px;
                         }
                     }    
                     .text{
                         line-height: 120px;
                         vertical-align: middle;
+                        font-size: 12px;
                     }
                 }
             }
