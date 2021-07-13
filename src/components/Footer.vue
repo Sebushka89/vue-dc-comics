@@ -77,7 +77,7 @@ export default {
 <style lang="scss" scoped>
 footer{
     background-image: url(../assets/footer-bg.jpg);
-    height: 495px;
+    height: 485px;
     display: flex;
     background-size: cover;
     .container{
@@ -104,13 +104,13 @@ footer{
         }
         .logo-container {
             display: inline-block;
-            height: 500px;
+            height: 485px;
             padding-left: 130px;
             overflow: hidden;
             width: 740px;
             img{
                 height: 600px;
-                margin-top: -50px;
+                margin-top: -70px;
             }
         }    
     }
