@@ -87,15 +87,17 @@ footer{
             display: inline-block;
             padding-right: 20px;
             margin-top: 30px;
-            color:white;
             vertical-align: top;
             ul{
                 list-style: none;        
                 li{
                     margin: 10px 0;
                     a {
-                        color: lightgrey;
-                        text-decoration: none; 
+                        color: grey;
+                        text-decoration: none;
+                        &:hover{
+                            color: white;
+                        } 
                     }
                 }    
             }
@@ -141,6 +143,7 @@ button{
 h2{
     text-transform: uppercase;
     margin: 20px 0;
+    color: white;
 }
     
 </style>
