@@ -140,6 +140,9 @@ button{
     background-color: #1C1C1C;
     color: white;
     cursor: pointer;
+    &:hover{
+        transform: scale(1.5);
+    }
 } 
 h2{
     text-transform: uppercase;
