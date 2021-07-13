@@ -105,8 +105,9 @@ footer{
         .logo-container {
             display: inline-block;
             height: 500px;
-            padding-left: 150px;
+            padding-left: 130px;
             overflow: hidden;
+            width: 740px;
             img{
                 height: 600px;
                 margin-top: -50px;
