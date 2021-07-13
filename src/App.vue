@@ -25,14 +25,6 @@ export default {
 </script>
 
 <style lang="scss">
-*{
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-}
+@import "./style/app.scss"
 
 </style>

@@ -55,12 +55,14 @@ export default {
                     margin: 0 10px;
                     cursor: pointer;
                     &:hover {
-                        color: dodgerblue;
                         border-bottom: 3px solid dodgerblue;
                     }
-                      a {
+                    a {
                         color: #333;
-                        text-decoration: none; 
+                        text-decoration: none;
+                        &:hover {
+                            color: dodgerblue ;
+                        } 
                     }
                 }
             }
